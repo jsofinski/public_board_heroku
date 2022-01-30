@@ -5,4 +5,3 @@ requests
 djangorestframework~=3.12.4
 pytz
 django-crontab
-gunicorn
