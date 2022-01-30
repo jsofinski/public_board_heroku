@@ -1,0 +1,7 @@
+django
+Pillow
+django-extensions
+requests
+djangorestframework
+pytz
+django-crontab
