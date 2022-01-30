@@ -27,7 +27,7 @@ DEBUG = os.getenv('ENVIRONMENT', 'development') == 'development'
 
 CSRF_TRUSTED_ORIGINS = ['https://publicboard.herokuapp.com']
 
-ALLOWED_HOSTS = ['publicboard.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://publicboard.herokuapp.com']
 
 
 # Application definition

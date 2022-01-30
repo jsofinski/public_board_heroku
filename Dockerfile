@@ -6,4 +6,5 @@ COPY code/requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
 EXPOSE $PORT
+RUN cd /code/code && python manage.py collectstatic --noinput
 CMD cd /code/code && python manage.py runserver 0.0.0.0:$PORT
