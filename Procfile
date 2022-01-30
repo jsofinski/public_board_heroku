@@ -1,1 +1,1 @@
-web: gunicorn publicboard:app
+heroku ps:scale web=1 worker=1
